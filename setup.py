@@ -5,7 +5,7 @@ with open("README.md", "r") as f:
     readme = f.read()
 
 setup(
-    name='seastream-pushfoo',
+    name='seastream',
     version='0.0.1',
     packages=find_packages(exclude=['contrib', 'docs', 'tests']),
     license='BSD 2-Clause',
